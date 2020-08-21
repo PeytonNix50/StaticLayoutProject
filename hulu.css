@@ -1,0 +1,233 @@
+body {
+    background-color: #0d3d4a;
+    margin: 0;
+    padding: 0;
+}
+html {
+    margin:0;
+    padding:0;
+}
+#navbar {
+    background-color: transparent;
+    position: relative;
+    top: 0;
+    left: 0;
+    float: right;
+    height: 50px;
+    width: 100vw;
+    text-align: right;
+    color: white;
+    font-family: 'Graphik', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    display: block;
+    text-transform: uppercase;
+    line-height: 1.15;
+    border-radius: 0;
+    text-decoration: none;
+    margin-top: 20px;
+}
+nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+}
+#try {
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 150px;
+    margin-bottom: -350px;
+    font-family: 'Graphik', sans-serif;
+}
+.header {
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: white;
+}
+#contentGrid {
+width: 100%;
+height: auto;
+opacity: 1;
+vertical-align: middle;
+border-style: none;
+margin: 0;
+padding: 0;
+transform: (0.25, 0.25);
+margin-top: 150px;
+}
+#hululogo {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+transform: scale(0.25, 0.25);
+margin-top: -200px;
+margin-bottom: 0px;
+padding-left: px;
+}
+
+#navbar:hover{
+    color: lightgray;
+}
+h1.header {
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 0px;
+    font-family: 'Graphik', sans-serif;
+    margin-bottom: -50px;
+}
+h2.header {
+    font-size: 22px;
+    line-height:30px;
+    margin-top: -75px;
+    font-family: 'Graphik', sans-serif;
+    word-wrap: break-word;
+}
+h3.header {
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    font-family: 'Graphik', sans-serif;
+}
+button.header {
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #040505;
+    background: white;
+    height: 56px;
+    min-width: 136px;
+    padding: 0 32px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-indent: 0;
+    text-shadow: none;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+h4.header {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 16px;
+    font-family: 'Graphik', sans-serif;
+    opacity: 0.7;
+}
+#maintext {
+    background: url(assets/download.jpg) center 100% 100% no-repeat;
+    background-size: cover;
+}
+.row {
+    display: flex;
+    flex-grow: 4;
+    height: -200px;
+    margin-top:50px;
+}
+#dpluslogo {
+    max-width: 400px;
+}
+#leftrow {
+    margin-left: 100px;
+}
+#leftrow, #middlerow, #rightrow {
+    height: 0px;
+}
+#leftrow, #rightrow {
+    flex-grow: 0;
+}
+#rightrow {
+    margin-right: 80px;
+}
+#middlerow {
+    flex-grow: 1;
+    margin-left: 225px;
+}
+#bundle {
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+    font-family: 'Graphik', sans-serif;
+}
+#gethulu {
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+    font-family: 'Graphik', sans-serif;
+}
+#detailsbutton {
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 15px;
+    font-family: 'Graphik', sans-serif;
+    font-weight: 400;
+    opacity: 0.7;
+}
+#getbundle {
+    height: 56px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Graphik', sans-serif;
+    color: white;
+    background-color: transparent;
+    text-indent: 0px;
+    text-shadow: none;
+    border-radius: 4px;
+    border: 2px solid white;
+    display: block;
+    padding: 0px 20px;
+    font-size: 14px;
+    min-width: 114px;
+    transform: translateY(0);
+    transition: box-shadow 0.2s ease,transform 0.1s ease;
+    cursor: pointer;
+}
+#terms {
+    color: white;
+    text-decoration: underline;
+    font-size: 10px;
+    opacity: 0.7;
+    text-align: center;
+    font-family: 'Graphik', sans-serif;
+    margin-left: 45px;
+}
+#toptext {
+    background: url(/StaticLayoutProject/assets/download.jpg) center 100% no-repeat;
+    background-size: cover;
+    margin-top: -150px;
+}
+a {
+    text-decoration: none;
+}
