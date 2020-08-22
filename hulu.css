@@ -220,7 +220,7 @@ h4.header {
     margin-left: 45px;
 }
 #toptext {
-    background: url(./assets/download.jpg) center 100% no-repeat;
+    background: url(assets/download.jpg) center 100% no-repeat;
     background-size: cover;
     margin-top: -150px;
 }
